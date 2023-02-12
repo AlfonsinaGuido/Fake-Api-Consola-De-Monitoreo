@@ -1,34 +1,42 @@
 {
-    "contadores": {
-        "id": 1,
-        "total": 200
-    },
-    "tablas": {
-        "id": 1,
-        "hora": "14:30",
-        "día": "12/05/22",
-        "país": "Argentina",
-        "capacidad": "Tasa de falsos positivos",
-        "componente": "Ruido de medición",
-        "código": "CER687866",
-        "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
-        "díaHoraPaís": "14:30 12/05/22 Argentina",
-        "estado": "Pendiente",
-        "equipo": "Back end",
-        "actualización": "14/02/23"
-    },
-    "descripción": {
-        "id": 1,
-        "descripción": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
-        "causa": "Se ha identificado que la causa raíz del problema es un error en el código JavaScript que se utiliza para realizar la validación de los datos del formulario. En particular, la expresión regular utilizada para validar el correo electrónico no está funcionando correctamente.",
-        "impacto": "Este error afecta negativamente la experiencia de usuario al impedirles enviar correctamente los datos del formulario y recibir una respuesta adecuada.",
-        "código": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
-    },
-    "pasos": {
-        "id": 1,
-        "1": "Acceder al sitio web: El usuario accede al sitio web que contiene el formulario que desea completar.",
-        "2": "Completar el formulario: El usuario ingresa los datos requeridos en los campos correspondientes del formulario.",
-        "3": "Enviar el formulario: Una vez que el usuario ha completado todos los campos requeridos, hace clic en el botón 'Enviar' para enviar el formulario.",
-        "4": "Recibir mensaje de error: Si la función de validación de formularios no está funcionando correctamente, el usuario recibirá un mensaje de error indicando que los datos no son válidos, incluso si los datos que ingresaron son correctos."
-    }
+    "contadores": [
+        {
+            "id": 1,
+            "total": 200
+        }
+    ],
+    "tablas": [
+        {
+            "id": 1,
+            "hora": "14:30",
+            "día": "12/05/22",
+            "país": "Argentina",
+            "capacidad": "Tasa de falsos positivos",
+            "componente": "Ruido de medición",
+            "código": "CER687866",
+            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "estado": "Pendiente",
+            "equipo": "Back end",
+            "actualización": "14/02/23"
+        }
+    ],
+    "descripción": [
+        {
+            "id": 1,
+            "descripción": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
+            "causa": "Se ha identificado que la causa raíz del problema es un error en el código JavaScript que se utiliza para realizar la validación de los datos del formulario. En particular, la expresión regular utilizada para validar el correo electrónico no está funcionando correctamente.",
+            "impacto": "Este error afecta negativamente la experiencia de usuario al impedirles enviar correctamente los datos del formulario y recibir una respuesta adecuada.",
+            "código": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
+        }
+    ],
+    "pasos": [
+        {
+            "id": 1,
+            "1": "Acceder al sitio web: El usuario accede al sitio web que contiene el formulario que desea completar.",
+            "2": "Completar el formulario: El usuario ingresa los datos requeridos en los campos correspondientes del formulario.",
+            "3": "Enviar el formulario: Una vez que el usuario ha completado todos los campos requeridos, hace clic en el botón 'Enviar' para enviar el formulario.",
+            "4": "Recibir mensaje de error: Si la función de validación de formularios no está funcionando correctamente, el usuario recibirá un mensaje de error indicando que los datos no son válidos, incluso si los datos que ingresaron son correctos."
+        }
+    ]
 }
