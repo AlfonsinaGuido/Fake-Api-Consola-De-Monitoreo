@@ -19,6 +19,48 @@
             "estado": "Pendiente",
             "equipo": "Back end",
             "actualización": "14/02/23"
+        },
+        {
+            "id": 1,
+            "hora": "14:30",
+            "día": "12/05/22",
+            "país": "Argentina",
+            "capacidad": "Tasa de falsos positivos",
+            "componente": "Ruido de medición",
+            "código": "CER687866",
+            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "estado": "Pendiente",
+            "equipo": "Back end",
+            "actualización": "14/02/23"
+        },
+        {
+            "id": 1,
+            "hora": "14:30",
+            "día": "12/05/22",
+            "país": "Argentina",
+            "capacidad": "Tasa de falsos positivos",
+            "componente": "Ruido de medición",
+            "código": "CER687866",
+            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "estado": "Pendiente",
+            "equipo": "Back end",
+            "actualización": "14/02/23"
+        },
+        {
+            "id": 1,
+            "hora": "14:30",
+            "día": "12/05/22",
+            "país": "Argentina",
+            "capacidad": "Tasa de falsos positivos",
+            "componente": "Ruido de medición",
+            "código": "CER687866",
+            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "estado": "Pendiente",
+            "equipo": "Back end",
+            "actualización": "14/02/23"
         }
     ],
     "descripción": [
