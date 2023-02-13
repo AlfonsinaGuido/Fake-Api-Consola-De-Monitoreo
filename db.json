@@ -9,67 +9,67 @@
         {
             "id": 1,
             "hora": "14:30",
-            "día": "12/05/22",
-            "país": "Argentina",
+            "dia": "12/05/22",
+            "pais": "Argentina",
             "capacidad": "Tasa de falsos positivos",
             "componente": "Ruido de medición",
-            "código": "CER687866",
-            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
-            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "codigo": "CER687866",
+            "descripcion": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualización": "14/02/23"
+            "actualizacion": "14/02/23"
         },
         {
-            "id": 1,
+            "id": 2,
             "hora": "14:30",
-            "día": "12/05/22",
-            "país": "Argentina",
+            "dia": "12/05/22",
+            "pais": "Argentina",
             "capacidad": "Tasa de falsos positivos",
             "componente": "Ruido de medición",
-            "código": "CER687866",
-            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
-            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "codigo": "CER687866",
+            "descripcion": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualización": "14/02/23"
+            "actualizacion": "14/02/23"
         },
         {
-            "id": 1,
+            "id": 3,
             "hora": "14:30",
-            "día": "12/05/22",
-            "país": "Argentina",
+            "dia": "12/05/22",
+            "pais": "Argentina",
             "capacidad": "Tasa de falsos positivos",
             "componente": "Ruido de medición",
-            "código": "CER687866",
-            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
-            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "codigo": "CER687866",
+            "descripcion": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualización": "14/02/23"
+            "actualizacion": "14/02/23"
         },
         {
-            "id": 1,
+            "id": 4,
             "hora": "14:30",
-            "día": "12/05/22",
-            "país": "Argentina",
+            "dia": "12/05/22",
+            "pais": "Argentina",
             "capacidad": "Tasa de falsos positivos",
             "componente": "Ruido de medición",
-            "código": "CER687866",
-            "descripción": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
-            "díaHoraPaís": "14:30 12/05/22 Argentina",
+            "codigo": "CER687866",
+            "descripcion": "Interferencia o fluctuación en los datos recopilados por los sensores durante el monitoreo",
+            "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualización": "14/02/23"
+            "actualizacion": "14/02/23"
         }
     ],
-    "descripción": [
+    "descripcion": [
         {
             "id": 1,
-            "descripción": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
+            "descripcion": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
             "causa": "Se ha identificado que la causa raíz del problema es un error en el código JavaScript que se utiliza para realizar la validación de los datos del formulario. En particular, la expresión regular utilizada para validar el correo electrónico no está funcionando correctamente.",
             "impacto": "Este error afecta negativamente la experiencia de usuario al impedirles enviar correctamente los datos del formulario y recibir una respuesta adecuada.",
-            "código": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
+            "codigo": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
         }
     ],
     "pasos": [
