@@ -75,10 +75,10 @@
     "pasos": [
         {
             "id": 1,
-            "1": "Acceder al sitio web: El usuario accede al sitio web que contiene el formulario que desea completar.",
-            "2": "Completar el formulario: El usuario ingresa los datos requeridos en los campos correspondientes del formulario.",
-            "3": "Enviar el formulario: Una vez que el usuario ha completado todos los campos requeridos, hace clic en el botón 'Enviar' para enviar el formulario.",
-            "4": "Recibir mensaje de error: Si la función de validación de formularios no está funcionando correctamente, el usuario recibirá un mensaje de error indicando que los datos no son válidos, incluso si los datos que ingresaron son correctos."
+            "uno": "Acceder al sitio web: El usuario accede al sitio web que contiene el formulario que desea completar.",
+            "dos": "Completar el formulario: El usuario ingresa los datos requeridos en los campos correspondientes del formulario.",
+            "tres": "Enviar el formulario: Una vez que el usuario ha completado todos los campos requeridos, hace clic en el botón 'Enviar' para enviar el formulario.",
+            "cuatro": "Recibir mensaje de error: Si la función de validación de formularios no está funcionando correctamente, el usuario recibirá un mensaje de error indicando que los datos no son válidos, incluso si los datos que ingresaron son correctos."
         }
     ]
 }
