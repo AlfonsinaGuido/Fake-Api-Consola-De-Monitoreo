@@ -66,10 +66,10 @@
     "descripcion": [
         {
             "id": 1,
-            "descripcion": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
+            "descripcionDetalle": "Se ha informado un problema con la función de validación de formularios en el sitio web. Los usuarios informan que a pesar de que están ingresando los datos correctamente en el formulario, se les muestra un mensaje de error indicando que los datos no son válidos.",
             "causa": "Se ha identificado que la causa raíz del problema es un error en el código JavaScript que se utiliza para realizar la validación de los datos del formulario. En particular, la expresión regular utilizada para validar el correo electrónico no está funcionando correctamente.",
             "impacto": "Este error afecta negativamente la experiencia de usuario al impedirles enviar correctamente los datos del formulario y recibir una respuesta adecuada.",
-            "codigo": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
+            "codigoDetalle": "// Función de validación de formularios function validateForm() { var email = document.forms['form']['email'].value; var emailRegEx = /^([a-zA-Z0-9_/-/.]+)@([a-zA-Z0-9_/-/.]+)/.([a-zA-Z]{2,5})$/; if (!emailRegEx.test(email)) { alert('Por favor ingrese un correo electrónico válido'); return false; } return true; }"
         }
     ],
     "pasos": [
