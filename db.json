@@ -2,7 +2,10 @@
     "contadores": [
         {
             "id": 1,
-            "total": 200
+            "totalErrores": 0.2,
+            "totalAlertas": 0.02,
+            "totalFlujos": 0.8,
+            "totalFlujosError": 0.2
         }
     ],
     "tablas": [
@@ -18,7 +21,9 @@
             "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualizacion": "14/02/23"
+            "actualizacion": "14/02/23",
+            "usuario": "Tomas Homs",
+            "sistema": "Ruido de medición"
         },
         {
             "id": 2,
@@ -32,7 +37,9 @@
             "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualizacion": "14/02/23"
+            "actualizacion": "14/02/23",
+            "usuario": "Tomas Homs",
+            "sistema": "Ruido de medición"
         },
         {
             "id": 3,
@@ -46,7 +53,9 @@
             "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualizacion": "14/02/23"
+            "actualizacion": "14/02/23",
+            "usuario": "Tomas Homs",
+            "sistema": "Ruido de medición"
         },
         {
             "id": 4,
@@ -60,7 +69,9 @@
             "diaHoraPais": "14:30 12/05/22 Argentina",
             "estado": "Pendiente",
             "equipo": "Back end",
-            "actualizacion": "14/02/23"
+            "actualizacion": "14/02/23",
+            "usuario": "Tomas Homs",
+            "sistema": "Ruido de medición"
         }
     ],
     "descripcion": [
